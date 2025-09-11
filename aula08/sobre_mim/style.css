@@ -1,0 +1,29 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #141314;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.curiosidade {
+    margin-bottom: 40px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
