@@ -1,0 +1,25 @@
+body {
+    /*imagem de fundo*/
+    background-image: url(pooh.jpg);
+    background-repeat: no-repeat; /*não repete o fundo*/
+    background-size: cover;
+    /*contain - aumenta a imagem sem cortar (deixa espaços vazios)
+    cover - aumenta a imagem podendo cortar ela (não deixa espaços vazios)*/
+    background-position: 20px 50px;
+    /*left, right, center, yop, bottom*/
+    background-attachment: scroll;
+    /*scroll - funfo mexe com o texto*/
+    /*fixed - funfo fica fixo*/
+    background-color: #ffd561;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(211, 211, 211, 0.384);
+}
+
+p {
+    font-size: 90px;
+}
