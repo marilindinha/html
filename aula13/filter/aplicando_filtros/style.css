@@ -1,0 +1,37 @@
+/*CSS*/
+img {
+    width: 250px;
+}
+.grayscale {
+    filter: grayscale(100%); 
+}
+.sepia {
+    filter: sepia(100%); 
+}
+.invert {
+    filter: invert(100%); 
+}
+.blur {
+    filter: blur(4px);
+}
+.brightness {
+    filter: brightness(150%); 
+}
+.contrast {
+    filter: contrast(200%); 
+}
+img:hover {
+    filter: none;
+}
+img:hover{
+    filter: invert(100%);
+}
+h1{
+    color: black;
+}
+.ex3{
+    filter: grayscale(100%);
+}
+.ex3:hover{
+    filter: grayscale(0%);
+}
