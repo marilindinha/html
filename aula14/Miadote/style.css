@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #d68fd6;
+  color: #3d2b3e;
+  line-height: 1.6;
+}
+* CABEÇALHO */
+header {
+  background: linear-gradient(90deg, #d68fd6, #eab1eb);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.lg {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+  color: #fbe4ff;
+  transform: scale(1.1);
+}
+
+.inicio {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 10%;
+  gap: 40px;
+  background-color: #ffeefc;
+}
+
+.texto {
+  max-width: 480px;
+}
+
+.texto h1 {
+  color: #a04ca3;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.texto p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #c479c6;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #9c4aa1;
+  transform: scale(1.05);
+}
+
+.imagem img {
+  width: 100%;
+  max-width: 250px; 
+  height: auto;
+  border-radius: 20px;
+  transition: transform 0.4s ease;
+}
+
+.imagem img:hover {
+  transform: scale(1.05);
+}
+
+.cards {
+  text-align: center;
+  padding: 70px 10%;
+  background-color: #fce6f8;
+}
+
+.cards h2 {
+  color: #a04ca3;
+  margin-bottom: 30px;
+  font-size: 1.8em;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  width: 250px; 
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: #fbe3f8;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  color: #c56bcc;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1em;
+  color: #3d2b3e;
+}
+
+footer {
+  background: linear-gradient(90deg, #d68fd6, #eab1eb);
+  color: white;
+  text-align: center
+}
