@@ -1,0 +1,127 @@
+.botao1{
+    background-color: rgb(255, 3, 142);
+    color: white;
+    transition: 1s ease-in-out;
+}
+.botao1:hover {
+    background-color: rgb(245, 134, 208);
+    color: black;
+}
+
+.botao2{
+    background-color: rgb(255, 3, 142);
+    color: white;
+    transition: 1s ease-in-out;
+}
+.botao2:hover {
+    background-color: rgb(245, 134, 208);
+    color: black;
+}
+
+.botao3{
+    background-color: rgb(255, 3, 142);
+    color: white;
+    transition: 1s ease-in-out;
+}
+.botao3:hover {
+    background-color: rgb(245, 134, 208);
+    color: black;
+}
+
+.botaoa {
+    background-color: rgb(252, 2, 169);
+}
+.botaoa:active {
+    background-color: rgb(245, 134, 208);
+    transform: scale(0.90);
+}
+
+input {
+    border: 2px solid rgb(255, 3, 142);
+    outline: none;
+    transition: 0.5s ease-in-out;
+}
+input:focus {
+    border: 2px solid rgb(245, 134, 208);
+    outline: none;
+    box-shadow: 0 0 10px rgb(245, 134, 208);
+}
+
+.card {
+    width: 250px;
+    background-color: rgb(245, 134, 208);
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgb(252, 2, 169);
+    background-color: #dcdcdc;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.galeria {
+    text-align: center;
+}
+
+.galeria img {
+    width: 200px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.galeria img:hover {
+    filter: grayscale(100%);
+}
+
+.botao {
+    background-color: gray; /* normal */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.botao:hover {
+    background-color: lightblue;
+}
+
+.botao:active {
+    background-color: darkblue;
+    transform: scale(0.9);
+}
+
+.botao:focus {
+    outline: 2px solid orange;
+}
+
+input {
+    border: 2px solid rgb(252, 2, 169);
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input:focus {
+    border: 2px solid rgb(245, 134, 208);
+    outline: none;
+}
+
+button {
+    background-color: rgb(252, 2, 169);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(245, 134, 208);
+}
+
+button:active {
+    transform: scale(0.9);
+}
